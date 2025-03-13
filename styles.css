@@ -67,3 +67,36 @@ body {
     font-size: 1.5em;
     margin: 10px 0 0;
 }
+
+/* Active menu item */
+.sidebar ul li a.active {
+    background: #1e3d1a;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* Crop List Section */
+.crop-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.crop-card {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: calc(25% - 20px);
+    text-align: center;
+}
+
+.crop-card h3 {
+    margin: 0;
+    color: #2d572c;
+}
+
+.crop-card p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
