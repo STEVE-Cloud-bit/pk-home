@@ -1,0 +1,10 @@
+{
+    "name": "Minimal Ubuntu Codespace",
+    "image": "ubuntu:latest",
+    "features": {},
+    "customizations": {
+        "vscode": {
+            "extensions": []
+        }
+    }
+}
