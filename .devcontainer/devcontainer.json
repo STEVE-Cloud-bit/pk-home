@@ -1,15 +1,10 @@
 {
-    "name": "FarmOS Codespace",
-    "build": {
-        "dockerfile": "Dockerfile"
-    },
-    "forwardPorts": [80, 3306],
-    "postCreateCommand": "composer install",
+    "name": "Minimal Ubuntu Codespace",
+    "image": "ubuntu:latest",
+    "features": {},
     "customizations": {
         "vscode": {
-            "extensions": [
-                "bmewburn.vscode-intelephense-client"
-            ]
+            "extensions": []
         }
     }
 }
