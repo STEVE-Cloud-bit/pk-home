@@ -3,26 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Farm Management System</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Farm Management Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to the Farm Management System</h1>
-    </header>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>Farm Dashboard</h2>
+            <nav>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Crops</a></li>
+                    <li><a href="#">Livestock</a></li>
+                    <li><a href="#">Equipment</a></li>
+                    <li><a href="#">Financials</a></li>
+                </ul>
+            </nav>
+        </aside>
 
-    <nav>
-        <ul>
-            <li><a href="pages/dashboard.html">Dashboard</a></li>
-            <li><a href="pages/crops.html">Crop Management</a></li>
-            <li><a href="pages/livestock.html">Livestock</a></li>
-            <li><a href="pages/expenses.html">Expenses</a></li>
-            <li><a href="pages/compost.html">Compost</a></li>
-        </ul>
-    </nav>
+        <!-- Main Content -->
+        <main class="main-content">
+            <header>
+                <h1>Dashboard Overview</h1>
+            </header>
 
-    <main>
-        <p>Manage your farm efficiently with our easy-to-use system.</p>
-    </main>
+            <section class="dashboard">
+                <div class="card">
+                    <h3>Total Crops</h3>
+                    <p>120 Acres</p>
+                </div>
+                <div class="card">
+                    <h3>Livestock</h3>
+                    <p>350 Animals</p>
+                </div>
+                <div class="card">
+                    <h3>Equipment</h3>
+                    <p>15 Machines</p>
+                </div>
+                <div class="card">
+                    <h3>Financials</h3>
+                    <p>$150,000 Revenue</p>
+                </div>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
